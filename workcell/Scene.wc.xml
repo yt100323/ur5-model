@@ -1,0 +1,11 @@
+<WorkCell name="ur5_model">
+  
+	<Frame name="robot" refframe="WORLD">
+		<RPY>0 0 0</RPY>
+		<Pos>0 0 0</Pos>
+	</Frame>
+	<Include file="UR5/UR.wc.xml"/>
+
+	<CollisionSetup file="SceneCollisionSetup.xml"/> 
+
+</WorkCell>
