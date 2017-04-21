@@ -13,4 +13,4 @@ add_library(ur5model MODULE ur5model.cpp
   ${RccSrcFiles}
   ${UiHeaders}
 )
-target_link_libraries(ur5model $ROBWORK_LIBRARIES $ROBWORKSTUDIO_LIBRARIES $ROBWORKSIM_LIBRARIES)
+target_link_libraries(ur5model ${ROBWORK_LIBRARIES} ${ROBWORKSTUDIO_LIBRARIES} ${ROBWORKSIM_LIBRARIES})

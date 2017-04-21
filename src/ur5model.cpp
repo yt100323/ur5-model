@@ -6,6 +6,9 @@
 #include <rw/math/Transform3D.hpp>
 #include <rws/RobWorkStudio.hpp>
 #include <rwsim/dynamics/DynamicWorkCell.hpp>
+#include <boost/bind.hpp>
+
+#include <QMessageBox>
 
 
 using namespace std;
