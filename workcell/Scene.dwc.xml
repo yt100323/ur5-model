@@ -1,0 +1,13 @@
+<DynamicWorkcell workcell="Scene.wc.xml">
+
+	<!-- gravity -->
+	<Gravity>0 0 -9.81</Gravity>
+
+	<!-- materials -->
+	<Include file="DynamicMaterialDataBase.xml"/>
+	
+	
+	<!-- robots -->
+	<Include file="UR5/UR.dwc.xml"/>
+
+</DynamicWorkcell>
